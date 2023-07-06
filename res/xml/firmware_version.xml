@@ -21,6 +21,15 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- PixelMagic version -->
+    <Preference
+        android:key="pm_release_version"
+        android:title="@string/pm_release_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PMVersionDetailPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
