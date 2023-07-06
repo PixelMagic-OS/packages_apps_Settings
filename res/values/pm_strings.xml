@@ -39,4 +39,8 @@
     <!-- Black theme for dark mode -->
     <string name="black_bg_title">Pure black</string>
     <string name="black_bg_summary">Pure black background for dark theme</string>
+    
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
