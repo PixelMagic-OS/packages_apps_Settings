@@ -44,6 +44,7 @@ public class PMVersionDetailPreferenceController extends BasePreferenceControlle
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_PM_BUILD_VERSION_PROP = "org.pm.build_version";
+    private static final String KEY_PM_CODENAME_VERSION_PROP = "org.pm.codename";
     private static final String KEY_PM_DEVICE_PROP = "org.pm.device";
     private static final String KEY_PM_RELEASE_TYPE_PROP = "org.pm.build_type";
     private static final String KEY_PM_RELEASE_VERSION_PROP = "org.pm.version.display";
@@ -127,11 +128,13 @@ public class PMVersionDetailPreferenceController extends BasePreferenceControlle
     private String shortRomVersion() {
         String romVersion = SystemProperties.get(KEY_PM_BUILD_VERSION_PROP,
                 this.mContext.getString(R.string.device_info_default));
+        String releaseVersion = SystemProperties.get(KEY_PM_CODENAME_VERSION_PROP,
+                this.mContext.getString(R.string.device_info_default));
         String deviceCodename = SystemProperties.get(KEY_PM_DEVICE_PROP,
                 this.mContext.getString(R.string.device_info_default));
         String romReleasetype = SystemProperties.get(KEY_PM_RELEASE_TYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
-        String shortVersion = romVersion + " | " + deviceCodename + " | " + romReleasetype;
+        String shortVersion = releaseVersion + " | " + romVersion + " | " + deviceCodename + " | " + romReleasetype;
         return shortVersion;
     }
 
