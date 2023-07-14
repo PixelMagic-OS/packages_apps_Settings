@@ -58,6 +58,14 @@
         android:order="-240"
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
+        
+    <!-- Magic Settings -->
+    <Preference
+        android:key="magic_settings"
+        android:title="@string/magic_title"
+        android:icon="@drawable/ic_magic_settings"
+        android:order="-247"
+        android:fragment="com.android.settings.custom.magic.MagicSettings" />
 
     <!-- System updates -->
     <Preference

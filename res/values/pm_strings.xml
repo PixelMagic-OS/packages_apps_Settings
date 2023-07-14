@@ -71,4 +71,20 @@
     <string name="qs_footer_datausage_title">Daily data usage in QS footer</string>
     <string name="qs_footer_datausage_summary">Display daily data usage summary in quick settings footer</string>
     
+    <!-- Categories -->
+    <string name="pm_animation_title">Animations</string>
+    <string name="pm_buttons_title">Buttons</string>
+    <string name="pm_gestures_title">Gestures</string>
+    <string name="pm_lockscreen_title">Lock screen</string>
+    <string name="pm_misc_title">Miscellaneous</string>
+    <string name="pm_navigation_title">Navigation</string>
+    <string name="pm_notifications_title">Notifications</string>
+    <string name="pm_powermenu_title">Power menu</string>
+    <string name="pm_quicksettings_title">Quick settings</string>
+    <string name="pm_status_bar_title">Status bar</string>
+    <string name="pm_themes_title">Themes</string>
+    
+    <!-- Magic -->
+    <string name="magic_title">Magic</string>
+    
 </resources>
