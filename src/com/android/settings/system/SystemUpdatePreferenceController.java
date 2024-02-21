@@ -34,8 +34,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
-    private static final String OTA_BUILD_TYPE_PROP = "net.pixelos.build_type";
-    private static final String OTA_APP_PACKAGE = "net.pixelos.ota";
+    private static final String OTA_BUILD_TYPE_PROP = "org.pm.build_type";
+    private static final String OTA_APP_PACKAGE = "net.pm.ota";
 
     private final UserManager mUm;
 
