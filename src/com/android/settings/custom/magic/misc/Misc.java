@@ -16,8 +16,13 @@
  */
 package com.android.settings.custom.magic.misc;
 
+import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.text.TextUtils;
@@ -27,6 +32,7 @@ import android.view.View;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 
@@ -34,6 +40,8 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.custom.preference.SystemSettingListPreference;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.pm.OmniJawsClient;
+import com.android.internal.util.pm.Utils;
 
 import java.util.Set;
 
