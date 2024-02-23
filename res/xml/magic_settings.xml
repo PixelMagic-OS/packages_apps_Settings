@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 PixelMagic Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/magic_title">
+
+    <!-- Animations -->
+    <!-- <Preference
+        android:key="animations_category"
+        android:title="@string/pm_animation_title"
+        android:fragment="com.pm.settings.fragments.animations.Animations"
+        android:icon="@drawable/ic_pm_animations" /> -->
+
+    <!-- Buttons -->
+    <!--<Preference
+        android:key="buttons_category"
+        android:title="@string/pm_buttons_title"
+        android:fragment="com.pm.settings.fragments.buttons.Buttons"
+        android:icon="@drawable/ic_pm_buttons" /> -->
+
+    <!-- Gestures -->
+    <!--<Preference
+        android:key="gestures_category"
+        android:title="@string/pm_gestures_title"
+        android:fragment="com.pm.settings.fragments.gestures.Gestures"
+        android:icon="@drawable/ic_settings_gestures" /> -->
+
+    <!-- Lock Screen -->
+    <!--<Preference
+        android:key="lockscreen_category"
+        android:title="@string/pm_lockscreen_title"
+        android:fragment="com.pm.settings.fragments.lockscreen.Lockscreen"
+        android:icon="@drawable/ic_pm_lockscreen" /> -->
+
+    <!-- Notifications -->
+    <!--<Preference
+        android:key="notifications_category"
+        android:title="@string/pm_notifications_title"
+        android:fragment="com.pm.settings.fragments.notification.Notification"
+        android:icon="@drawable/ic_pm_notifications" /> -->
+
+    <!-- Power Menu -->
+    <!--<Preference
+        android:key="powermenu_category"
+        android:title="@string/pm_powermenu_title"
+        android:fragment="com.pm.settings.fragments.powermenu.PowerMenu"
+        android:icon="@drawable/ic_pm_powermenu" /> -->
+
+    <!-- Quick Settings panel -->
+    <!--<Preference
+        android:key="quicksettings_category"
+        android:title="@string/pm_quicksettings_title"
+        android:fragment="com.pm.settings.fragments.qs.QuickSettings"
+        android:icon="@drawable/ic_pm_quicksettings" /> -->
+
+    <!-- Status bar -->
+    <!--<Preference
+        android:key="statusbar_category"
+        android:title="@string/pm_status_bar_title"
+        android:fragment="com.pm.settings.fragments.statusbar.Statusbar"
+        android:icon="@drawable/ic_pm_statusbar" /> -->
+
+    <!-- Themes -->
+    <!--<Preference
+        android:key="themes_category"
+        android:title="@string/pm_themes_title"
+        android:fragment="com.pm.settings.fragments.themes.ThemeSettings" 
+        android:icon="@drawable/ic_pm_themes" /> -->
+
+    <!-- Misc -->
+    <Preference
+        android:key="misc_category"
+        android:title="@string/pm_misc_title"
+        android:fragment="com.android.settings.custom.magic.misc.Misc"
+        android:icon="@drawable/ic_pm_miscellaneous" />
+
+</PreferenceScreen>
