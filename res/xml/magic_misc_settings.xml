@@ -10,7 +10,7 @@
 
     <!-- Weather -->
     <Preference
-        android:icon="@drawable/ic_omnijaws"
+        android:icon="@drawable/ic_weather_settings"
         android:title="@string/weather_settings_title"
         android:summary="@string/weather_settings_summary">
         <intent
