@@ -71,11 +71,11 @@ public class HapticsPreferenceFragmentController extends AbstractPreferenceContr
 
    private void updateSettings() {
         int edgeScrollingIntensity = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.EDGE_SCROLLING_HAPTICS_INTENSITY, 1);
+                Settings.System.EDGE_SCROLLING_HAPTICS_INTENSITY, 0);
         mEdgeScrollingIntensity.setValue(edgeScrollingIntensity);
 
         int volumeSliderIntensity = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.VOLUME_SLIDER_HAPTICS_INTENSITY, 1);
+                Settings.System.VOLUME_SLIDER_HAPTICS_INTENSITY, 0);
         mVolumeSliderIntensity.setValue(volumeSliderIntensity);
         
         int qsTileHapticsIntensity = Settings.System.getInt(mContext.getContentResolver(),
