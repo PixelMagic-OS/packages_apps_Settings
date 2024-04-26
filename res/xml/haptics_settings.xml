@@ -26,9 +26,9 @@
         android:icon="@drawable/ic_qs_tile"
         android:title="@string/qs_panel_tile_haptic_intensity_title"
         android:order="-997"
-        android:max="5"
+        android:max="4"
         settings:min="0"
-        android:defaultValue="0"
+        android:defaultValue="3"
         settings:interval="1"/>
         
     <!-- Edge scrolling intensity -->
@@ -37,7 +37,7 @@
         android:icon="@drawable/ic_scroll"
         android:title="@string/edge_scrolling_haptics_intensity_title"
         android:order="-997"
-        android:max="5"
+        android:max="4"
         settings:min="0"
         android:defaultValue="3"
         settings:interval="1"/>
@@ -50,7 +50,7 @@
         android:order="-996"
         android:max="3"
         settings:min="0"
-        android:defaultValue="1"
+        android:defaultValue="2"
         settings:interval="1"/>
 
 </PreferenceScreen>
