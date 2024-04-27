@@ -68,8 +68,8 @@
     <!--<Preference
         android:key="themes_category"
         android:title="@string/pm_themes_title"
-        android:fragment="com.pm.settings.fragments.themes.ThemeSettings" 
-        android:icon="@drawable/ic_pm_themes" /> -->
+        android:fragment="com.android.settings.custom.magic.themes.Themes" 
+        android:icon="@drawable/ic_theme" />-->
 
     <!-- Misc -->
     <Preference
