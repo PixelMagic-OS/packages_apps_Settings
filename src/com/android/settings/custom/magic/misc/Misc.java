@@ -38,7 +38,6 @@ import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
-import com.android.settings.custom.preference.SystemSettingListPreference;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.pm.OmniJawsClient;
 import com.android.internal.util.pm.Utils;
@@ -66,6 +65,6 @@ public class Misc extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CUSTOM_SETTINGS;
+        return MetricsEvent.CUSTOM;
     }
 }
