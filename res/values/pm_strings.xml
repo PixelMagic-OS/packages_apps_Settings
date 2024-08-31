@@ -40,4 +40,8 @@
 
     <!-- Volume Buttons Gestures -->
     <string name="volume_buttons_gestures_title">Volume Buttons Gestures</string>
+
+    <!-- Long press navbar to search -->
+    <string name="navbar_long_press_gesture_title">Long press to search</string>
+    <string name="navbar_long_press_gesture_summary">Touch and hold the Home button or the navigation handle to search using the content on your screen</string>
 </resources>
