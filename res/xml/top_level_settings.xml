@@ -19,6 +19,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="top_level_settings">
+    
+    <Preference
+        android:fragment="com.pm.settings.AdvancedSettings"
+        android:icon="@drawable/ic_cancel"
+        android:key="top_level_advancedsettings"
+        android:order="9"
+        android:title="@string/advancedsettings_title"
+        android:summary="@string/advancedsettings_title_summary"
+        settings:controller="com.pm.settings.TopLevelPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"

@@ -121,6 +121,15 @@
             android:summary="@string/wallpaper_dashboard_summary"
             settings:highlightableMenuKey="@string/menu_key_wallpaper"
             settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.pm.settings.AdvancedSettings"
+            android:icon="@drawable/ic_magic_settings"
+            android:key="top_level_advancedsettings"
+            android:order="-9"
+            android:title="@string/advancedsettings_title"
+            android:summary="@string/advancedsettings_title_summary"
+            settings:controller="com.pm.settings.TopLevelPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory

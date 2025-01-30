@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022-2023 PixelMagic
+     Copyright (C) 2022-2024 PixelMagic
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -10,4 +10,8 @@
     <!-- Dolby -->
     <string name="dolby_settings_title">Dolby™</string>
     <string name="dolby_settings_summary">Dolby Settings</string>
+    
+    <!-- advancedsettings -->
+    <string name="advancedsettings_title">Magic</string>
+    <string name="advancedsettings_title_summary">Advanced settings</string>
 </resources>
