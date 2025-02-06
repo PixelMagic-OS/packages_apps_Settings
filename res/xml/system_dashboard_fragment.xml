@@ -46,14 +46,6 @@
         android:fragment="com.android.settings.inputmethod.TrackpadSettings"
         settings:controller="com.android.settings.inputmethod.TrackpadSettingsController"/>
 
-    <Preference
-        android:key="gesture_settings"
-        android:title="@string/gesture_preference_title"
-        android:icon="@drawable/ic_settings_gestures"
-        android:order="-250"
-        android:fragment="com.android.settings.gestures.GestureSettings"
-        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
-
     <Preference 
         android:key="select_webview_provider"
         android:icon="@drawable/ic_web"
@@ -61,14 +53,6 @@
         android:dialogTitle="@string/select_webview_provider_dialog_title"
         android:order="-246"
         android:fragment="com.android.settings.webview.WebViewAppPicker" />
-
-    <!-- Button Settings -->
-    <Preference
-        android:key="button_settings"
-        android:title="@string/button_pref_title"
-        android:icon="@drawable/ic_button_settings"
-        android:order="-249"
-        android:fragment="com.android.settings.pm.buttons.ButtonSettings"/>
 
     <Preference
         android:key="date_time_settings"
