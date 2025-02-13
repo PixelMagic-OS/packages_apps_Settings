@@ -146,7 +146,7 @@
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"
-        android:order="1001"
+        android:order="1002"
         settings:searchable="false">
 
         <com.android.settings.RestrictedListPreference
