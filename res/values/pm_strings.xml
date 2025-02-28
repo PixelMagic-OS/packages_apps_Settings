@@ -16,4 +16,5 @@
     <string name="advancedsettings_title_summary">Advanced settings</string>
     
     <string name="wellbeing_title">Digital wellbeing</string>
+    <string name="wellbeing_summary">Screen time, app timers, bedtime shedulers</string>
 </resources>
