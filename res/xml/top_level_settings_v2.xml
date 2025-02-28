@@ -245,14 +245,6 @@
         android:key="top_level_account_category"
         android:layout="@layout/settingslib_preference_category_no_title">
         <com.android.settings.widget.HomepagePreference
-            android:icon="@drawable/ic_homepage_google"
-            android:key="top_level_services"
-            android:order="-40"
-            android:title="@string/gms_enabled_title"
-            android:summary="@string/summary_placeholder"
-            settings:highlightableMenuKey="top_level_google"
-            settings:controller="com.android.settings.home.GooglePreferenceController"/>
-        <com.android.settings.widget.HomepagePreference
             android:icon="@drawable/ic_homepage_wellbeing"
             android:key="top_level_wb"
             android:order="-30"

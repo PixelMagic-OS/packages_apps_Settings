@@ -216,8 +216,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             iteratePreferences(preference -> {
                 if (Flags.homepageRevamp()) {
                     String prefKey = preference.getKey();
-                    if (prefKey.equals("top_level_wellbeing")
-                        || prefKey.equals("top_level_google")) {
+                    if (prefKey.equals("top_level_wellbeing")) {
                         preference.setVisible(false);
                     }
                     return;
