@@ -14,4 +14,7 @@
     <!-- advancedsettings -->
     <string name="advancedsettings_title">Magic</string>
     <string name="advancedsettings_title_summary">Advanced settings</string>
+    
+    <string name="gms_enabled_title">Google services</string>
+    <string name="wellbeing_title">Digital wellbeing</string>
 </resources>
