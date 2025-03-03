@@ -37,4 +37,7 @@
 
     <!-- Navigation Gestures -->
     <string name="navigation_gestures_title">Navigation Gestures</string>
+
+    <!-- Volume Buttons Gestures -->
+    <string name="volume_buttons_gestures_title">Volume Buttons Gestures</string>
 </resources>

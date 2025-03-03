@@ -144,6 +144,10 @@
         settings:keywords="@string/keywords_gesture"
         settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController" />
 
+    <PreferenceCategory
+        android:key="volume_buttons_gestures"
+        android:title="@string/volume_buttons_gestures_title">
+
     <Preference
         android:key="volume_button_music_control_sumary"
         android:title="@string/volume_button_music_control_title"
@@ -155,6 +159,8 @@
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+    </PreferenceCategory>
 
     <com.android.settings.custom.preference.RemotePreference
             android:key="touchscreen_gesture_settings"
