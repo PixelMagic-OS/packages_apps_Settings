@@ -31,4 +31,7 @@
     <string name="shake_gestures_screenshot">Take Screenshot</string>
     <string name="shake_gestures_intensity_title">Shake Gestures Intensity</string>
     <string name="shake_gestures_intensity_summary">Adjust the sensitivity of shake gestures</string>
+
+    <!-- Power Button Gestures -->
+    <string name="power_button_gestures_title">Power Button Gestures</string>
 </resources>
