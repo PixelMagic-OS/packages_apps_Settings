@@ -52,13 +52,6 @@
 
     </PreferenceCategory>
 
-    <Preference
-        android:key="gesture_swipe_down_fingerprint_input_summary"
-        android:title="@string/fingerprint_swipe_for_notifications_title"
-        android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
-        settings:searchable="false"
-        settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
-
     <PreferenceCategory
         android:key="power_gestures"
         android:title="@string/power_button_gestures_title">
@@ -91,6 +84,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="navigation_gestures"
+        android:title="@string/navigation_gestures_title">
+
+    <Preference
+        android:key="gesture_swipe_down_fingerprint_input_summary"
+        android:title="@string/fingerprint_swipe_for_notifications_title"
+        android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
+        settings:searchable="false"
+        settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
+
     <Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/system_navigation_title"
@@ -103,6 +107,14 @@
         android:title="@string/one_handed_title"
         android:fragment="com.android.settings.gestures.OneHandedSettings"
         settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
+
+    <Preference
+        android:key="three_finger_gesture_summary"
+        android:title="@string/three_finger_gesture"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
+    </PreferenceCategory>
 
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_tap"
@@ -124,12 +136,6 @@
         android:fragment="com.android.settings.gestures.PickupGestureSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
-
-    <Preference
-        android:key="three_finger_gesture_summary"
-        android:title="@string/three_finger_gesture"
-        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
-        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
     <SwitchPreferenceCompat
         android:key="gesture_screen_off_udfps"
