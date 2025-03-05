@@ -7116,6 +7116,7 @@
     <string name="user_lockscreen_settings">Lock screen settings</string>
     <!-- User settings item to allow creating new users from locks screen [CHAR LIMIT=50] -->
     <string name="user_add_on_lockscreen_menu">Add users from lock screen</string>
+    <string name="user_add_on_lockscreen_menu_summary">Allow to add new users on lockscreen</string>
     <!-- TODO(b/257333623): HSUM has no 1:1 admin:dream relationship. There can even be >1 admin -->
     <!-- User settings item to allow the system to automatically switch back to the Dock User when
          the device is docked. [CHAR LIMIT=50] -->

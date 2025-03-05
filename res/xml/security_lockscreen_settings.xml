@@ -38,6 +38,7 @@
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="security_lockscreen_add_users_when_locked"
             android:title="@string/user_add_on_lockscreen_menu"
+            android:summary="@string/user_add_on_lockscreen_menu_summary"
             settings:controller="com.android.settings.users.AddUserWhenLockedPreferenceController" />
 
         <com.android.settingslib.RestrictedPreference
