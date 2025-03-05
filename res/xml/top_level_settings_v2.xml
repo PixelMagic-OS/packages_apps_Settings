@@ -116,11 +116,21 @@
         <com.android.settings.widget.RestrictedHomepagePreference
             android:icon="@drawable/ic_settings_wallpaper_filled"
             android:key="top_level_wallpaper"
-            android:order="-10"
+            android:order="-11"
             android:title="@string/wallpaper_settings_title"
             android:summary="@string/wallpaper_dashboard_summary"
             settings:highlightableMenuKey="@string/menu_key_wallpaper"
             settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.android.settings.accessibility.AccessibilitySettings"
+            android:icon="@drawable/ic_settings_accessibility_filled"
+            android:key="top_level_accessibility"
+            android:order="-10"
+            android:title="@string/accessibility_settings"
+            android:summary="@string/accessibility_settings_summary"
+            settings:highlightableMenuKey="@string/menu_key_accessibility"
+            settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.pm.settings.AdvancedSettings"
@@ -174,6 +184,20 @@
             android:summary="@string/summary_placeholder"
             settings:highlightableMenuKey="@string/menu_key_about_device"
             settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:order="-105"
+        android:key="top_level_account_category"
+        android:layout="@layout/settingslib_preference_category_no_title">
+        <com.android.settings.widget.HomepagePreference
+            android:icon="@drawable/ic_homepage_wellbeing"
+            android:key="top_level_wb"
+            android:order="-30"
+            android:title="@string/wellbeing_title"
+            android:summary="@string/wellbeing_summary"
+            settings:highlightableMenuKey="top_level_wellbeing"
+            settings:controller="com.android.settings.home.WellbeingPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -241,33 +265,9 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:order="-90"
-        android:key="top_level_account_category"
-        android:layout="@layout/settingslib_preference_category_no_title">
-        <com.android.settings.widget.HomepagePreference
-            android:icon="@drawable/ic_homepage_wellbeing"
-            android:key="top_level_wb"
-            android:order="-30"
-            android:title="@string/wellbeing_title"
-            android:summary="@string/wellbeing_summary"
-            settings:highlightableMenuKey="top_level_wellbeing"
-            settings:controller="com.android.settings.home.WellbeingPreferenceController"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:order="100"
         android:key="top_level_support_category"
         android:layout="@layout/settingslib_preference_category_no_title">
-
-        <com.android.settings.widget.HomepagePreference
-            android:fragment="com.android.settings.accessibility.AccessibilitySettings"
-            android:icon="@drawable/ic_settings_accessibility_filled"
-            android:key="top_level_accessibility"
-            android:order="-20"
-            android:title="@string/accessibility_settings"
-            android:summary="@string/accessibility_settings_summary"
-            settings:highlightableMenuKey="@string/menu_key_accessibility"
-            settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
             android:icon="@drawable/ic_help_filled"
