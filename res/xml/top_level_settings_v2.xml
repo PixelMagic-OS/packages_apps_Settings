@@ -188,7 +188,7 @@
 
     <PreferenceCategory
         android:order="-105"
-        android:key="top_level_account_category"
+        android:key="top_level_wellbeing_category"
         android:layout="@layout/settingslib_preference_category_no_title">
         <com.android.settings.widget.HomepagePreference
             android:icon="@drawable/ic_homepage_wellbeing"
